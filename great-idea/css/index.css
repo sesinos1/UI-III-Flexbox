@@ -180,7 +180,7 @@ header .logo {
 
 .main-content {
   border-top: 1px solid black;
-  margin-top: 76px;
+  margin-top: 40px;
   padding-top: 39px;
 }
 
@@ -237,3 +237,57 @@ footer {
 	display: flex;
 	justify-content: center;
 }
+.card{
+	display: flex;
+	font-size: 20px;s
+}
+.card1{
+	font-size: 20px;
+}
+.main-content1 {
+	border-top: 1px solid black;
+	margin-top: 40px;
+	padding-top: 39px;
+  }
+  
+  .main-content1 .top-content {
+	padding: 0 10px;
+  }
+  
+  .main-content1 .top-content .text-content {
+	width: 410px;
+	display: flex;
+	margin-right: 34px;
+  }
+  
+  .main-content1 .top-content .text-content:last-child {
+	margin-right: 0;
+  }
+  
+  .main-content1 .middle-img {
+	margin-top: 45px;
+  }
+  
+  .main-content1 .bottom-content {
+	margin-top: 37px;
+	padding: 0 10px;
+  }
+  
+  .main-content1 .bottom-content .text-content {
+	width: 275px;
+	display: flex;
+	margin-right: 12px;
+  }
+  
+  .main-content1 .bottom-content .text-content:last-child {
+	margin-right: 0;
+  }
+  .boxs{
+	  display: flex;
+	  justify-content: center;
+	  align-content: center;
+	  border: 2px solid gray;
+	  height: 200px;
+	  width: 200px;
+	  flex-flow: column wrap;
+  }
